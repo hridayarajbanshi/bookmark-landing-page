@@ -483,6 +483,12 @@ html, body{
     cursor: pointer;
     transition: .5s;
 }
+#logo{
+    width: 70px;
+    margin: 0;
+    padding: 0px;
+}
+
 
 .contact form button:hover,
 .contact form button:focus{
