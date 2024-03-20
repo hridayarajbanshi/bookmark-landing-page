@@ -1,9 +1,3 @@
-/* 
-Logic for the FEATURES section that:
-changes the images on clicking a controller
-changes the heading on clicking a controller
-changes the paragraph on clicking a controller
-*/
 
 const control = document.getElementsByClassName("control");
 
@@ -45,10 +39,6 @@ function remove(){
 
 
 
-/*
-Logic for the drop down menu which
-toggles independently of other menus
-*/
 
 const controls = document.getElementsByClassName("text");
 const dropMenu = document.getElementsByClassName("drop-down-text");
@@ -91,11 +81,7 @@ controls[3].onclick = function(){
 }
 
 
-/*
-Form validation to check if email 
-address is wrongly formatted before 
-submitting. Returns error message when not formatted correctly
-*/
+
 
 function validateForm() {
     let email = document.getElementById("email");
@@ -132,10 +118,6 @@ function validateForm() {
 }
 
 
-/* 
-Mobile Navigation, navigation logo 
-and hamburger menu toggle 
-*/
 
 const menu = document.getElementById("mobileNav");
 const button = document.getElementById("mobileMenu");
